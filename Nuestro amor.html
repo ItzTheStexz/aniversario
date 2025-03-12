@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestro Amor</title>
+    <link rel="stylesheet" href="VideoStyle.css">
+</head>
+<body>
+    <!-- Pantalla de carga -->
+    <div class="loading-screen">
+        <div class="spinner"></div>
+        <p>Cargando...</p>
+        <button id="skipLoading">Ver Video</button>
+    </div>
+
+    <div class="video-container">
+        <iframe id="miVideo" width="560" height="315" 
+            src="https://www.youtube.com/embed/tWnDXzV0mR8?enablejsapi=1&mute=1"
+            frameborder="0" allowfullscreen allow="fullscreen">
+        </iframe>
+        <button id="playPauseBtn">▶</button>
+    </div>
+
+    <script src="video.js" defer></script>
+</body>
+</html>
